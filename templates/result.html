@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection Result</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card mt-5">
+                    <div class="card-header text-center">
+                        <h2>Object Detection Result</h2>
+                    </div>
+                    <div class="card-body">
+                        <!-- Display the predicted image here -->
+                        <img src="{{ url_for('static', filename='outputs/output.jpg') }}" alt="Predicted Image" class="img-fluid">
+                    </div>
+                    <div class="card-footer text-center">
+                        <!-- Add a link to go back to the upload page -->
+                        <a href="/" class="btn btn-primary">Back to Upload Page</a>
+                        <!-- Add a button to download the output image -->
+                        <a href="{{ url_for('static', filename='outputs/output.jpg') }}" download class="btn btn-secondary">Download Result</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
