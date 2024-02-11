@@ -33,3 +33,7 @@ The image below demonstrates the object detection capabilities of the model. The
 5. Upload an image and click 'Submit' to process the image.
 6. View the processed image with detected objects.
 7. Download the processed image if desired.
+
+## Acknowledgements
+
+- [Using Tailwind with Flask](https://www.codewithharry.com/blogpost/using-tailwind-with-flask/) by CodeWithHarry: This guide was instrumental in setting up and using Tailwind CSS in this Flask project.
