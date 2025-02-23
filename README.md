@@ -36,4 +36,4 @@ The image below demonstrates the object detection capabilities of the model. The
 
 ## Acknowledgements
 
-- [Using Tailwind with Flask](https://www.codewithharry.com/blogpost/using-tailwind-with-flask/) by CodeWithHarry: This guide was instrumental in setting up and using Tailwind CSS in this Flask project.
+- [Using Tailwind with Flask](https://www.codewithharry.com/blogpost/using-tailwind-with-flask/) by CodeWithHarry: This guide was used to set up and use Tailwind CSS in this Flask project.
